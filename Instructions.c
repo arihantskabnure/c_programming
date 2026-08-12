@@ -158,3 +158,53 @@ int main()
     return 0;
 }
 */
+
+
+
+
+// Homework
+
+//a.Write a program to print the avrage of 3 numbers
+
+/*
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter the numbers:");
+    scanf("%d %d %d",&a,&b,&c);
+    printf("Average :%d",(a+b+c)/3);
+    return 0;
+}
+*/
+
+
+//b.Write a program to see if given character is digit or not
+
+/*
+#include<stdio.h>
+int main()
+{
+    char a;
+    printf("Enter a character:");
+    scanf("%c",&a);
+    printf("%d",a>='0' && a<='9'); //returns 1 if digit
+    return 0;
+}
+*/
+
+
+//c.Write a program to print the smallest number of two
+//not sure how to print the smallest number but finding is easy
+//found about ternary operstor 
+//condition ? value_if_true : value_if_false;
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter any 2 numbers:");
+    scanf("%d %d",&a,&b);
+    printf("Smallest number:%d",(a<b)?a:b);// this prints actual value rather than 1 or 0
+    return 0;
+}
