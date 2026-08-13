@@ -206,8 +206,12 @@ int main()
 }
 */
 
+
+
 //Write a program to find if entered character is upper case or not
 
+
+/*
 #include<stdio.h>
 int main()
 {
@@ -226,3 +230,4 @@ int main()
     
     return 0;
 }
+*/
