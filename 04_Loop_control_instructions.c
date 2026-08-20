@@ -167,6 +167,7 @@ int main()
 
 //print sum first n natural numbers
 
+/*
 #include<stdio.h>
 int main()
 {
@@ -185,5 +186,109 @@ int main()
         for(int i=n;i>=1;i--){
         printf("%d\n",i);
       }
+    return 0;
+}
+*/
+
+//Print table of a number given by user
+
+/*
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+
+    for(int i=1;i<=10;i++){
+        printf("%d\n",n*i);
+    }
+    return 0;
+}
+*/
+
+//Break statment
+
+/*
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=5;i++){
+        if(i==3){
+            break;
+        }
+        printf("%d\n",i);
+    }
+    printf("end");
+    return 0;
+}
+    
+*/
+
+//Keep taking input from user until its a odd number
+/*
+#include<stdio.h>
+int main()
+{
+    do{
+        int i;
+        printf("Enter a number:");
+        scanf("%d",&i);
+        if(i%2!=0){
+            break;
+        }
+    }while(1);
+    printf("Thank you");
+    return 0;
+}
+*/
+
+
+//keep taking input from user until number is multiple of 7
+
+/*
+#include<stdio.h>
+int main()
+{
+    do{
+        int i;
+        printf("Enter a number:");
+        scanf("%d",&i);
+        if(i%7==0){
+            break;
+        }
+    }while(1);
+    return 0;
+}
+*/
+
+// Continue statment
+
+/*
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=5;i++){
+        if(i==3){
+            continue;
+        }
+        printf("%d\n",i);
+    }
+    printf("end");
+    return 0;
+}
+*/
+
+//Print all number from 1 to 100 except any number with 6
+
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=100;i++){
+        if(i%10==6 || i/10==6){
+            continue;
+        }
+        printf("%d\n",i);
+    }
     return 0;
 }

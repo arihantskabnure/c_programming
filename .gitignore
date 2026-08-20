@@ -1,5 +1,3 @@
-# Compiled C executables
-*.exe
-
-# VS Code settings
+build/
 .vscode/
+*.exe
